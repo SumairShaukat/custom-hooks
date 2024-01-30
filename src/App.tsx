@@ -1,12 +1,14 @@
 
 import './App.css'
-import Demo from './components'
+import LocalStorage from './Custom-hooks/useLocalstorage'
+// import Demo from './components'
 
 function App() {
 
   return (
     <>
-    <Demo />
+    {/* <Demo /> */}
+    <LocalStorage />
     </>
   )
 }
